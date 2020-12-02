@@ -11,7 +11,7 @@ const addUser = () => {
   // and appends the element to the DOM
   const newUserNameInput = document.querySelector('input#name');
   const newUserAgeInput = document.querySelector('input#age');
-
+  
   if (
     !validateInput(newUserNameInput.value, true, false) ||
     !validateInput(newUserAgeInput.value, false, true)
